@@ -1,0 +1,35 @@
+ - La consola la buscan en el menú de inicio o con el shortcut "Ctrl + Alt + T"
+
+               Y se presentaron diversos comandos, a continuación se presenta una lista de los comandos vistos con  una breve descripción:
+
+                - ls: lista de archivos y directorios (carpetas).  Si escriben ls -a , el -a muestra archivos ocultos
+
+                - cd: Change Directory , con este comando pueden moverse entre directorios. Ej: cd Escritorio/programas
+
+                - clear: Limpiar la consola
+
+                - touch: crear un archivo. Ejemplo: touch miArhivo.txt
+
+                - mkdir: Make Directory, les crea un directorio. Ej: mkdir miCarpeta
+
+                - cp: Copy. Copiar archivos o directorios en otro directorio. Ej: cp miArchivo.txt miCarpeta
+
+               - cat: concatenate. Muestra el contenido de los archivos sin abrir editor de texto. Ej: cat miArchivo.txt
+
+               - pwd: Muestra su localización con respeto a la root del disco. Ej: pwd  
+
+               - mv: Move. Mueve o renombra un archivo o directorio. Ej: mv miArchivo.txt miCarpeta
+
+               - find: Encuentra un archivo o directorio y te da la ubicación. Ej: find -name 'miArchivo.*'
+
+               - man: Manual de uso. Muestra el manual de uso de un comando o programa. Ej: man ls
+
+               - rm: Remove. Borra un archivo o carpeta. Ej: rm miArchivo.txt o rm -R miCarpeta    (Las carpetas van con -R para borrarlas recursivamente).
+
+               - rmdir: Remove Directory. Borra un directorio. Ejemplo: rmdir -p miCarpeta
+
+               -  tree: Muestra archivos y directorios interiores como un árbol. Ej: tree -L 2.
+
+               Recordatorios: El * sirve como "Comodín" al momento de buscar o abrir un archivo. Un ejemplo claro sería:
+
+                find -name '*.mp3'    (Mostrará todos los archivos de extensión mp3 dentro del directorio o subdirectorios.
